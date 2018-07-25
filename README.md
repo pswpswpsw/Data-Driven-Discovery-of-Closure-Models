@@ -19,6 +19,8 @@ To run the code, one would need
     - readers can also try different version of SINDy but keep in mind regularization coefficient should be well tuned.
 
 After that, one can start to compiled the code using Cython, as a purpose to acclerating our Python code.
+- cd to /src folder, run *make* 
+
 To run different cases, one should first cd to /src folder, and then doing the folloing.
 
 To run simple 3D linear system case
