@@ -1,6 +1,12 @@
-# Data-driven closure discovery
+# Code for Data-driven closure discovery
 
-This is the code for implementing several toy cases in "Data driven discovery of closure models" in https://arxiv.org/abs/1803.09318
+Brief overview
+--------------
+
+This is the code, written in Python, for implementing several toy cases in "Data driven discovery of closure models" in https://arxiv.org/abs/1803.09318
+
+How to run this code?
+---------------------
 
 To run the code, one would need
 - cython
@@ -27,5 +33,8 @@ To run Lorenz case
 - chaotic case: 
     - python cython_main.py lorenz-chaos ann_cross_time 1 18 
 
-
+How to check final result?
+--------------------------
 To check the final result, go into the folder of the /data/ and check corresponding /image subfolders
+
+
