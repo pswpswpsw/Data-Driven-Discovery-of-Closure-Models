@@ -10,7 +10,7 @@ from matplotlib.animation import FuncAnimation
 from mpl_toolkits.mplot3d import Axes3D
 from nolds import lyap_e, corr_dim
 
-plt.style.use('siads')
+# plt.style.use('siads')
 
 color_list = ['r', 'g', 'b', 'k', 'c', 'y']
 

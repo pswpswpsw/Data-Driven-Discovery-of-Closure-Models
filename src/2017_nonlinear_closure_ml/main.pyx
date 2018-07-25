@@ -21,8 +21,8 @@ date: 12/11/2017
     - python cython_main.py 3d_linear sindy 1 tdf 1
 
    - lorenz:
-       - python cython_main.py lorenz-equ ann_cross_time 1 8 ## equ
-       - python cython_main.py lorenz-chaos ann_cross_time 1 12 ## chaotic
+       - python cython_main.py lorenz-equ ann_cross_time 1 18 ## equ
+       - python cython_main.py lorenz-chaos ann_cross_time 1 18 ## chaotic
 
 
 """

@@ -6,7 +6,7 @@ from run_aposteriori import compute_aposteriori_3d_linear
 from run_aposteriori import compute_aposteriori_2d_vdp
 from run_aposteriori import compute_aposteriori_3d_lorenz
 
-plt.style.use('siads')
+# plt.style.use('siads')
 
 def validate_closure(config_dict, data_dict, targeted_states, true_closure_to_add, tsnap, case_name, problem_name):
     """
