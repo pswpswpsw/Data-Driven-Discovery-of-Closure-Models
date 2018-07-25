@@ -47,4 +47,8 @@ For Lorenz cases, since the number of data points is a bit large and we have a p
 For non-chaotic cases it took around 30 mins and for chaotic case it took 220 mins.
 
 
- 
+How to play around with it and tune different parameters?
+---------------------------------------------------------
+
+Check out /src/config.pyx
+
