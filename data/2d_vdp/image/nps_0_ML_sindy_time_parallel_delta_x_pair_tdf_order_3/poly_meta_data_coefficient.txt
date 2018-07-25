@@ -1,0 +1,20 @@
+l1 = [1e-07]
+Total number of combination of polynomial features considered: 
+10
+Total number of coefficients: 
+10
+Total number of equations: 
+1799
+Number of non-zero coefficients: 
+3
+Coefficients collected as 1D array: 
+[[ 0.        ]
+ [-0.99999727]
+ [ 0.        ]
+ [-0.        ]
+ [ 1.9999904 ]
+ [ 0.        ]
+ [-1.9999933 ]
+ [-0.        ]
+ [-0.        ]
+ [ 0.        ]]
