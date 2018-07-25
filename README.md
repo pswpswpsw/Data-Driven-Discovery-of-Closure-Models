@@ -27,3 +27,5 @@ To run Lorenz case
 - chaotic case: 
     - python cython_main.py lorenz-chaos ann_cross_time 1 18 
 
+
+To check the final result, go into the folder of the /data/ and check corresponding /image subfolders
