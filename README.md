@@ -19,6 +19,7 @@ To run the code, one would need
     - readers can also try different version of SINDy but keep in mind regularization coefficient should be well tuned.
 
 After that, one can start to compiled the code using Cython, as a purpose to acclerating our Python code.
+To run different cases, one should first cd to /src folder, and then doing the folloing.
 
 To run simple 3D linear system case
 - python cython_main.py 3d_linear sindy 1 tdf 1
@@ -37,4 +38,13 @@ How to check final result?
 --------------------------
 To check the final result, go into the folder of the /data/ and check corresponding /image subfolders
 
+How long does it take on a normal laptop?
+-----------------------------------------
 
+For 3D linear and 2D VDP case, it is really fast within 2-5 mins.
+
+For Lorenz cases, since the number of data points is a bit large and we have a posteriori evaluations, the computational time is a bit long.
+For non-chaotic cases it took around 30 mins and for chaotic case it took 220 mins.
+
+
+ 
